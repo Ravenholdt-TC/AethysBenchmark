@@ -1,0 +1,76 @@
+###
+#   This file is the one used to start the simulations
+#     It's the only one you should run (or copy in the GUI).
+#
+#   You need to put the path to the folder containing the profiles (where did you clone the git repo for example)
+#   Then you need to specify what Default Profile you want to take for the gear. (unless you're overriding it)
+###
+
+
+###     -- CAN BE MODIFIED --
+#
+#   [SETTINGS]
+#       This is the only section you have to care about.
+#
+#       $(CLASS)        -> The Class
+#       $(SPEC)         -> The Spec
+#       $(PATH)         -> Path to the repository containing this file (and all others!)
+#       $(TIER)         -> Tier you want to test (T19M, T19M_NH, T20M, ...)
+#       $(FIGHT_TYPE)   -> 1T / 2T / 3T / 1TA
+#
+###     -- CAN BE MODIFIED --
+$(SLASH_TYPE)=\
+$(PATH)=C:\Users\Aethys\Desktop\AethysBenchmark
+$(CLASS)=Rogue
+$(SPEC)=Assassination
+$(TIER)=T19M_NH
+$(FIGHT_TYPE)=1T
+$(BENCHMARK_NAME)=Default
+
+threads=8
+process_priority=low
+target_error=0.05
+optimal_raid=1
+fixed_time=1
+#single_actor_batch=1
+max_time=300
+vary_combat_length=0.2
+
+
+###     -- DO NOT TOUCH --
+#   [DEFAULT PROFILE LOADER]
+###     -- DO NOT TOUCH --
+(CLASS)_$(SPEC)_$(Tier).simc
+
+
+###     -- CAN BE MODIFIED --
+#
+#   [GEAR OVERRIDE]
+#       This is the section where you can override some parts of the default gear.
+#       Just remove the "#" at the start of the line, and complete it.
+#
+###     -- CAN BE MODIFIED --
+
+#head=
+#neck=
+#shoulders=
+#back=
+#chest=
+#wrists=
+#hands=
+#waist=
+#legs=
+#feet=
+#finger1=
+#finger2=
+#trinket1=
+#trinket2=
+#main_hand=
+#off_hand=
+
+
+###     -- DO NOT TOUCH --
+#   [BENCHMARK LOADER]
+###     -- DO NOT TOUCH --
+input=$(PATH)$(SLASH_TYPE)Enemies$(SLASH_TYPE)$(FIGHT_TYPE).simc
+input=$(PATH)$(SLASH_TYPE)$(BENCHMARK_NAME).simc

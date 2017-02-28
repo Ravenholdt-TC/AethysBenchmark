@@ -1,0 +1,5 @@
+enemy=enemy1
+raid_events+=/adds,count=1,first=30,cooldown=30,duration=10
+raid_events+=/adds,count=1,first=32.5,cooldown=30,duration=10
+raid_events+=/adds,count=1,first=35,cooldown=30,duration=10
+raid_events+=/adds,count=1,first=37.5,cooldown=30,duration=10
