@@ -12,15 +12,16 @@
 #   [SETTINGS]
 #       This is the only section you have to care about.
 #
-#       $(CLASS)        -> The Class
-#       $(SPEC)         -> The Spec
-#       $(PATH)         -> Path to the repository containing this file (and all others!)
-#       $(TIER)         -> Tier you want to test (T19M, T19M_NH, T20M, ...)
-#       $(FIGHT_TYPE)   -> 1T / 2T / 3T / 1TA
+#       $(CLASS)            -> The Class
+#       $(SPEC)             -> The Spec
+#       $(PATH)             -> Path to the repository containing this file (and all others!)
+#       $(TIER)             -> Tier you want to test (T19M, T19M_NH, T20M, ...)
+#       $(FIGHT_TYPE)       -> 1T / 2T / 3T / 1TA
+#       $(BENCHMARK_NAME)   -> Default / PopularTalents / ...
 #
 ###     -- CAN BE MODIFIED --
 $(SLASH_TYPE)=\
-$(PATH)=C:\Users\Aethys\Desktop\AethysBenchmark
+$(PATH)=C:\Users\Aethys\Documents\Github\AethysBenchmark
 $(CLASS)=Rogue
 $(SPEC)=Subtlety
 $(TIER)=T19M_NH
@@ -40,7 +41,7 @@ vary_combat_length=0.2
 ###     -- DO NOT TOUCH --
 #   [DEFAULT PROFILE LOADER]
 ###     -- DO NOT TOUCH --
-(CLASS)_$(SPEC)_$(Tier).simc
+$(CLASS)_$(SPEC)_$(TIER).simc
 
 
 ###     -- CAN BE MODIFIED --
@@ -72,5 +73,6 @@ vary_combat_length=0.2
 ###     -- DO NOT TOUCH --
 #   [BENCHMARK LOADER]
 ###     -- DO NOT TOUCH --
+name="Default"
+input=$(PATH)$(SLASH_TYPE)$(CLASS)_$(SPEC)_$(BENCHMARK_NAME).simc
 input=$(PATH)$(SLASH_TYPE)Enemies$(SLASH_TYPE)$(FIGHT_TYPE).simc
-input=$(PATH)$(SLASH_TYPE)$(BENCHMARK_NAME).simc
