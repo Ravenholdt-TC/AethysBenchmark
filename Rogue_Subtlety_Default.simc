@@ -9,7 +9,7 @@ talents=1220011
 #   Default
 ###
 
-# Default APL (leave it empty) or Custom APL #1 goes here
+## Default APL (leave it empty) or Custom APL #1 goes here
 
 
 
@@ -18,8 +18,7 @@ talents=1220011
 ###
 
 copy="New","Default"
-# Custom APL #2 goes here (to compare with default or the #1)
-
+## Custom APL #2 goes here (to compare with default or the #1)
 
 
 ###
