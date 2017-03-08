@@ -22,7 +22,7 @@
 $(SLASH_TYPE)=\
 $(PATH)=C:\Users\Aethys\Desktop\AethysBenchmark
 $(CLASS)=Rogue
-$(SPEC)=Assassination
+$(SPEC)=Subtlety
 $(TIER)=T19M_NH
 $(FIGHT_TYPE)=1T
 $(BENCHMARK_NAME)=Default
