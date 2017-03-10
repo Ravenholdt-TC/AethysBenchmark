@@ -1,0 +1,27 @@
+###
+#   Setup
+###
+
+talents=1130011
+
+
+###
+#   Default
+###
+
+## Default APL (leave it empty) or Custom APL #1 goes here
+
+
+
+###
+#   New
+###
+
+copy="New","Default"
+## Custom APL #2 goes here (to compare with default or the #1)
+
+
+
+###
+#   Talents
+###
