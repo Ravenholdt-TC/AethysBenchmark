@@ -1,0 +1,86 @@
+###
+#   Setup
+###
+
+talents=1130011
+
+
+###
+#   Default
+###
+
+## Default APL (leave it empty) or Custom APL #1 goes here
+
+
+
+###
+#   New
+###
+
+copy="New","Default"
+## Custom APL #2 goes here (to compare with default or the #1)
+
+
+
+###
+#   Legendaries
+###
+
+copy="Default_Boots","Default"
+feet=duskwalkers_footpads,id=137030,ilevel=940
+
+copy="New_Boots","New"
+feet=duskwalkers_footpads,id=137030,ilevel=940
+
+
+
+###
+#   Master Assassin
+###
+copy="Default_MA:0","Default"
+artifact_override=master_assassin:3
+
+copy="Default_MA:1","Default"
+artifact_override=master_assassin:4
+
+copy="Default_MA:2","Default"
+artifact_override=master_assassin:5
+
+copy="Default_MA:3","Default"
+artifact_override=master_assassin:6
+
+copy="New_MA:0","New"
+artifact_override=master_assassin:3
+
+copy="New_MA:1","New"
+artifact_override=master_assassin:4
+
+copy="New_MA:2","New"
+artifact_override=master_assassin:5
+
+copy="New_MA:3","New"
+artifact_override=master_assassin:6
+
+copy="Default_MA:0_Boots","Default_Boots"
+artifact_override=master_assassin:3
+
+copy="Default_MA:1_Boots","Default_Boots"
+artifact_override=master_assassin:4
+
+copy="Default_MA:2_Boots","Default_Boots"
+artifact_override=master_assassin:5
+
+copy="Default_MA:3_Boots","Default_Boots"
+artifact_override=master_assassin:6
+
+copy="New_MA:0_Boots","New_Boots"
+artifact_override=master_assassin:3
+
+copy="New_MA:1_Boots","New_Boots"
+artifact_override=master_assassin:4
+
+copy="New_MA:2_Boots","New_Boots"
+artifact_override=master_assassin:5
+
+copy="New_MA:3_Boots","New_Boots"
+artifact_override=master_assassin:6
