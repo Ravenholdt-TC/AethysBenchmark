@@ -21,54 +21,63 @@ copy="New","Default"
 ## Custom APL #2 goes here (to compare with default or the #1)
 
 
+
 ###
 #   Legendaries
 ###
 
 copy="Default_Boots_Mantle","Default"
-shoulders=mantle_of_the_master_assassin,id=144236
-feet=shadow_satyrs_walk,id=137032
+shoulders=mantle_of_the_master_assassin,id=144236,ilevel=940
+feet=shadow_satyrs_walk,id=137032,ilevel=940
 
 copy="Default_Boots_Bracers","Default"
-wrist=denial_of_the_halfgiants,id=137100
-feet=shadow_satyrs_walk,id=137032
+wrists=denial_of_the_halfgiants,id=137100,ilevel=940
+feet=shadow_satyrs_walk,id=137032,ilevel=940
 
 copy="Default_Bracers_Mantle","Default"
-wrist=denial_of_the_halfgiants,id=137100
-shoulders=mantle_of_the_master_assassin,id=144236
+wrists=denial_of_the_halfgiants,id=137100,ilevel=940
+shoulders=mantle_of_the_master_assassin,id=144236,ilevel=940
 
 copy="New_Boots_Mantle","New"
-shoulders=mantle_of_the_master_assassin,id=144236
-feet=shadow_satyrs_walk,id=137032
+shoulders=mantle_of_the_master_assassin,id=144236,ilevel=940
+feet=shadow_satyrs_walk,id=137032,ilevel=940
 
 copy="New_Boots_Bracers","New"
-wrist=denial_of_the_halfgiants,id=137100
-feet=shadow_satyrs_walk,id=137032
+wrists=denial_of_the_halfgiants,id=137100,ilevel=940
+feet=shadow_satyrs_walk,id=137032,ilevel=940
 
 copy="New_Bracers_Mantle","New"
-wrist=denial_of_the_halfgiants,id=137100
-shoulders=mantle_of_the_master_assassin,id=144236
+wrists=denial_of_the_halfgiants,id=137100,ilevel=940
+shoulders=mantle_of_the_master_assassin,id=144236,ilevel=940
 
 
 
 ###
 #   Draught of Souls
 ###
+# Leave this empty (in case you use T18 or T20 tier!), it's to handle correctly bonus_id/ilevel
+$(Item_$(TIER))=
+# Correct DoS iLevel.
+$(Item_T19P)=trinket2=draught_of_souls,id=140808,ilevel=840
+$(Item_T19H)=trinket2=draught_of_souls,id=140808,ilevel=865
+$(Item_T19M)=trinket2=draught_of_souls,id=140808,ilevel=885
+$(Item_T19H_NH)=trinket2=draught_of_souls,id=140808,ilevel=895
+$(Item_T19M_NH)=trinket2=draught_of_souls,id=140808,ilevel=910
 
 copy="Default_DoS_Boots_Mantle","Default_Boots_Mantle"
-trinket2=draught_of_souls,id=140808,bonus_id=3519
+$(Item_$(TIER))
 
 copy="Default_DoS_Boots_Bracers","Default_Boots_Bracers"
-trinket2=draught_of_souls,id=140808,bonus_id=3519
+$(Item_$(TIER))
 
 copy="Default_DoS_Bracers_Mantle","Default_Bracers_Mantle"
-trinket2=draught_of_souls,id=140808,bonus_id=3519
+$(Item_$(TIER))
 
 copy="New_DoS_Boots_Mantle","New_Boots_Mantle"
-trinket2=draught_of_souls,id=140808,bonus_id=3519
+$(Item_$(TIER))
 
 copy="New_DoS_Boots_Bracers","New_Boots_Bracers"
-trinket2=draught_of_souls,id=140808,bonus_id=3519
+$(Item_$(TIER))
 
 copy="New_DoS_Bracers_Mantle","New_Bracers_Mantle"
-trinket2=draught_of_souls,id=140808,bonus_id=3519
+$(Item_$(TIER))
