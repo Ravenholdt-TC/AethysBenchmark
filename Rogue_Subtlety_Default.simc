@@ -58,11 +58,11 @@ shoulders=mantle_of_the_master_assassin,id=144236,ilevel=940
 # Leave this empty (in case you use T18 or T20 tier!), it's to handle correctly bonus_id/ilevel
 $(Item_$(TIER))=
 # Correct DoS iLevel.
-$(Item_T19P)=trinket2=draught_of_souls,id=140808,ilevel=840
-$(Item_T19H)=trinket2=draught_of_souls,id=140808,ilevel=865
-$(Item_T19M)=trinket2=draught_of_souls,id=140808,ilevel=885
-$(Item_T19H_NH)=trinket2=draught_of_souls,id=140808,ilevel=895
-$(Item_T19M_NH)=trinket2=draught_of_souls,id=140808,ilevel=910
+$(Item_T19P)=trinket1=draught_of_souls,id=140808,ilevel=840
+$(Item_T19H)=trinket1=draught_of_souls,id=140808,ilevel=865
+$(Item_T19M)=trinket1=draught_of_souls,id=140808,ilevel=885
+$(Item_T19H_NH)=trinket1=draught_of_souls,id=140808,ilevel=895
+$(Item_T19M_NH)=trinket1=draught_of_souls,id=140808,ilevel=910
 
 copy="Default_DoS_Boots_Mantle","Default_Boots_Mantle"
 $(Item_$(TIER))
