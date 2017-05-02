@@ -2,7 +2,7 @@
 #   Setup
 ###
 
-talents=1130011
+talents=1230111
 
 
 ###
@@ -27,7 +27,6 @@ copy="New","Default"
 ###
 
 copy="Default_Boots_Mantle","Default"
-talent_override=subterfuge
 shoulders=mantle_of_the_master_assassin,id=144236,ilevel=940
 feet=duskwalkers_footpads,id=137030,ilevel=940
 
@@ -36,12 +35,14 @@ wrists=zoldyck_family_training_shackles,id=137098,ilevel=940
 feet=duskwalkers_footpads,id=137030,ilevel=940
 
 copy="Default_Bracers_Mantle","Default"
-talent_override=subterfuge
 wrists=zoldyck_family_training_shackles,id=137098,ilevel=940
 shoulders=mantle_of_the_master_assassin,id=144236,ilevel=940
 
+copy="Default_Insignia_Mantle","Default"
+shoulders=mantle_of_the_master_assassin,id=144236,ilevel=940
+finger1=insignia_of_ravenholdt,id=137049,gem_id=130222,enchant=binding_of_mastery,ilevel=940
+
 copy="New_Boots_Mantle","New"
-talent_override=subterfuge
 shoulders=mantle_of_the_master_assassin,id=144236,ilevel=940
 feet=duskwalkers_footpads,id=137030,ilevel=940
 
@@ -50,11 +51,12 @@ wrists=zoldyck_family_training_shackles,id=137098,ilevel=940
 feet=duskwalkers_footpads,id=137030,ilevel=940
 
 copy="New_Bracers_Mantle","New"
-talent_override=subterfuge
 wrists=zoldyck_family_training_shackles,id=137098,ilevel=940
 shoulders=mantle_of_the_master_assassin,id=144236,ilevel=940
 
-
+copy="New_Insignia_Mantle","New"
+shoulders=mantle_of_the_master_assassin,id=144236,ilevel=940
+finger1=insignia_of_ravenholdt,id=137049,gem_id=130222,enchant=binding_of_mastery,ilevel=940
 
 ###
 #   Draught of Souls
