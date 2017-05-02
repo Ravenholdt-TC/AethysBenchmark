@@ -49,6 +49,9 @@ artifact_override=master_assassin:5
 copy="Default_MA:3","Default"
 artifact_override=master_assassin:6
 
+copy="Default_MA:4","Default"
+artifact_override=master_assassin:7
+
 copy="New_MA:0","New"
 artifact_override=master_assassin:3
 
@@ -60,6 +63,9 @@ artifact_override=master_assassin:5
 
 copy="New_MA:3","New"
 artifact_override=master_assassin:6
+
+copy="New_MA:4","New"
+artifact_override=master_assassin:7
 
 copy="Default_MA:0_Boots","Default_Boots"
 artifact_override=master_assassin:3
@@ -73,6 +79,9 @@ artifact_override=master_assassin:5
 copy="Default_MA:3_Boots","Default_Boots"
 artifact_override=master_assassin:6
 
+copy="Default_MA:4_Boots","Default_Boots"
+artifact_override=master_assassin:7
+
 copy="New_MA:0_Boots","New_Boots"
 artifact_override=master_assassin:3
 
@@ -84,3 +93,6 @@ artifact_override=master_assassin:5
 
 copy="New_MA:3_Boots","New_Boots"
 artifact_override=master_assassin:6
+
+copy="New_MA:4_Boots","New_Boots"
+artifact_override=master_assassin:7
