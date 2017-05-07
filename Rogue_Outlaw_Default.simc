@@ -31,10 +31,12 @@ shoulders=mantle_of_the_master_assassin,id=144236,ilevel=940
 feet=thraxis_tricksy_treads,id=137031,ilevel=940
 
 copy="Default_Boots_Bracers","Default"
+talent_override=quick_draw
 wrists=greenskins_waterlogged_wristcuffs,id=137099,ilevel=940
 feet=thraxis_tricksy_treads,id=137031,ilevel=940
 
 copy="Default_Bracers_Mantle","Default"
+talent_override=quick_draw
 wrists=greenskins_waterlogged_wristcuffs,id=137099,ilevel=940
 shoulders=mantle_of_the_master_assassin,id=144236,ilevel=940
 
@@ -47,10 +49,12 @@ shoulders=mantle_of_the_master_assassin,id=144236,ilevel=940
 feet=thraxis_tricksy_treads,id=137031,ilevel=940
 
 copy="New_Boots_Bracers","New"
+talent_override=quick_draw
 wrists=greenskins_waterlogged_wristcuffs,id=137099,ilevel=940
 feet=thraxis_tricksy_treads,id=137031,ilevel=940
 
 copy="New_Bracers_Mantle","New"
+talent_override=quick_draw
 wrists=greenskins_waterlogged_wristcuffs,id=137099,ilevel=940
 shoulders=mantle_of_the_master_assassin,id=144236,ilevel=940
 
